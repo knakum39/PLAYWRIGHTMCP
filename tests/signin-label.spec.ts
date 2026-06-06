@@ -1,6 +1,8 @@
 import { test } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 
+//LoginPage.ts is the POM file
+
 test.describe('Sign In Label Verification', () => {
   let loginPage: LoginPage;
 
